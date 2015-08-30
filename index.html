@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=drawing"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="map.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="meteors.js"></script>
+	<link href="main.css" rel="stylesheet" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Spacial Bombardment</h1>
+	<div class="all">
+	<div>
+		<img onclick="changeYear(2009);changeMeteorYear(2009)" class="button" src="09-button.png">
+		<img onclick="changeYear(2010);changeMeteorYear(2010)" class="button" src="10-button.png">
+		<img onclick="changeYear(2011);changeMeteorYear(2011)" class="button" src="11-button.png">
+		<img onclick="changeYear(2012);changeMeteorYear(2012)" class="button" src="12-button.png">
+		</div>
+	<div class="second">
+		<img onclick="changeYear(2013);changeMeteorYear(2013)" class="two-button" src="13-button.png">
+		<img onclick="changeYear(2014);changeMeteorYear(2014)" class="two-button" src="14-button.png">
+		<img onclick="changeYear(2015);changeMeteorYear(2015)" class="two-button" src="15-button.png">
+		</div>		
+	</div>
+		<p class="description">Here is an interactive version of NASA's database of fireballs and meteors. Filter by year, and notice that the larger the marker, the more cataclysmic the event. Click on a marker to learn more about it.</p>
+	<div id="googleMap" class="googleMap"></div>
+	<div id="info"></div>
+</body>
+</html>

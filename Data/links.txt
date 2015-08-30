@@ -1,0 +1,8 @@
+Fireball
+
+https://communities.socrata.com/dataset/Fireball-And-Bolide-Reports/ds82-x5sg/alt
+
+Landslides
+https://data.nasa.gov/Earth-Science/Global-Landslide-Catalog/h9d8-neg4
+https://data.nasa.gov/api/views/9ns5-uuif/rows.json?accessType=DOWNLOAD
+
