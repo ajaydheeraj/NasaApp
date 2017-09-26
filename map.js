@@ -8,6 +8,5 @@ function initialize() {
   };
   map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
-initialize();
 google.maps.event.addDomListener(window, 'load', initialize);
 initialize();
